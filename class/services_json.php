@@ -111,7 +111,7 @@ defined('SERVICES_JSON_SUPPRESS_ERRORS') or define('SERVICES_JSON_SUPPRESS_ERROR
  * $value = $json->decode($input);
  * </code>
  */
-if (!@class_exists('Services_JSON')) {
+if (!@class_exists('Services_JSON')) { 
     class Services_JSON
     {
        /**
